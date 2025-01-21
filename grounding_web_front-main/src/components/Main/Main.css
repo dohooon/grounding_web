@@ -1,0 +1,28 @@
+/* Assets.css */
+.assets-container {
+  width: 100%;
+  max-width: 800px; /* 최대 너비 설정 */
+  margin: 20px auto; /* 가운데 정렬 */
+  overflow-x: auto; /* 필요시 스크롤바 표시 */
+}
+
+.assets-container table {
+  width: 100%; /* 테이블 전체 너비 */
+  border-collapse: collapse; /* 테두리 겹치기 */
+  margin-bottom: 20px; /* 테이블 아래 여백 */
+}
+
+.assets-container th,
+.assets-container td {
+  border: 1px solid #ccc; /* 셀 테두리 */
+  padding: 8px; /* 셀 내부 패딩 */
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+}
+
+.assets-container th {
+  background-color: #f4f4f4; /* 헤더 배경 색상 */
+}
+
+.assets-container tr:nth-child(even) {
+  background-color: #f9f9f9; /* 짝수 행 배경색 */
+}

@@ -1,0 +1,34 @@
+/* src/components/Notification/Notifications.css */
+
+.alarm-list {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.alarm-list h1 {
+  margin-bottom: 20px;
+}
+
+.alarm-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.alarm-list th,
+.alarm-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.alarm-list th {
+  background-color: #f2f2f2;
+}
+
+.alarm-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.alarm-list tr:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,63 @@
+/* AdminAssets.css */
+.admin-assets-container {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.assets-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.assets-table th,
+.assets-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.assets-table th {
+  background-color: #f2f2f2;
+}
+
+.assets-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.assets-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.assets-table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.assets-table button:hover {
+  opacity: 0.8;
+}
+
+.assets-table button:focus {
+  outline: none;
+}
+
+.assets-table button:first-child {
+  background-color: var(--main);
+  color: white;
+}

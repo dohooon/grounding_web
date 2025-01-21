@@ -1,0 +1,140 @@
+/* Sell.css */
+.sell-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px; /* 배너 높이만큼 패딩 추가 */
+  padding: 20px;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.progress-container {
+  margin-bottom: 10px;
+}
+
+.sell-container h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.sell-container label {
+  margin-left: 10px;
+  color: #555;
+}
+
+.sell-container button {
+  width: 100%;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sell-container button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.sell-container button:hover:not(:disabled) {
+  background-color: black;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid #cffcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle.filled {
+  background-color: #97f5fa;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 2px;
+  background-color: #cffcff; /* 기본 색상: 회색 */
+  margin: 0 10px;
+}
+
+.line.filled {
+  background-color: #97f5fa; /* 진행된 단계의 색상: 파란색 */
+}
+
+.allAgree {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--grey2);
+}
+
+.allAgree .allAgreeText {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: -12px;
+  text-align: left;
+  color: var(--grey5);
+}
+
+.allAgree .agreeText {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: left;
+  color: var(--grey4);
+}
+
+.allAgreeLabel {
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.allAgree input[type="checkbox"] {
+  margin-top: -32px;
+}
+
+.termsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.termsItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.button.active {
+  background-color: ##1fcbd5;
+  cursor: pointer;
+}

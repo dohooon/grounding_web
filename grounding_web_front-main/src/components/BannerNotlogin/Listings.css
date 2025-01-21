@@ -1,0 +1,27 @@
+/* Listings.css */
+.listings-container {
+  width: 80%;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+.listings-container table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.listings-container th,
+.listings-container td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.listings-container th {
+  background-color: #f4f4f4;
+}
+
+.listings-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,44 @@
+/* Assets.css */
+
+.assets-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+.asset-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer; /* 클릭 가능하도록 커서 변경 */
+  transition: background-color 0.3s; /* 배경색 전환 효과 */
+}
+
+.asset-info:hover {
+  background-color: #e9e9e9; /* 호버 시 배경색 변경 */
+}
+
+.no-assets {
+  color: #999;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.info-banner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.info-banner a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.info-banner a.active {
+  font-weight: bold;
+}

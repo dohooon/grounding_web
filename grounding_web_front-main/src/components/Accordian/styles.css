@@ -1,0 +1,41 @@
+.accordion {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.accordion .title {
+  width: 90%;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.AccordionTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.AccordionTitleWrapper .arrowIcon {
+  transition: transform 0.3s;
+  margin-top: -20px;
+  transform: rotate(90deg);
+}
+
+.AccordionTitleWrapper .arrowIcon.rotated {
+  transform: rotate(-90deg);
+}
+
+.accordion .accordionContent {
+  padding: 10px;
+  display: none;
+  background-color: var(--grey1);
+  font-size: 13px;
+  font-weight: 350;
+}
+
+.accordion .accordionContent.active {
+  display: block;
+}

@@ -1,0 +1,116 @@
+.step {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.asset-type-group {
+  display: flex;
+  gap: 20px; /* 요소 사이의 간격 */
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.sell-container label span {
+  color: var(--red);
+}
+
+#asset-type {
+  margin-right: 70px;
+}
+
+.asset-type-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #555;
+}
+
+.sell-container .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.sell-container .form-group label {
+  margin-right: 10px;
+  color: #555;
+  min-width: 150px; /* 레이블의 최소 너비 설정 */
+  text-align: left;
+}
+
+.sell-second-container .form-group input[type="text"],
+.sell-second-container .form-group input[type="number"],
+.sell-second-container .form-group input[type="date"],
+.sell-second-container .form-group select {
+  width: 100%; /* 전체 너비를 기본값으로 설정 */
+  max-width: 300px; /* 최대 너비를 400px로 설정 */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sell-second-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.sell-second-container input[type="file"] {
+  border: none;
+}
+
+.sell-second-container .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 170px; /* 수정된 부분 */
+  margin-right: 170px; /* 수정된 부분 */
+}
+
+.sell-second-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container .button {
+  width: 100%;
+}
+
+.sell-second-container button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.sell-second-container button:hover:not(:disabled) {
+  background-color: #ddd;
+}
+
+/* 입력 필드 스타일 */
+input[type="file"] {
+  width: 100%; /* 입력 필드 너비 */
+  padding: 8px 10px; /* 패딩 */
+  border: 1px solid #ccc; /* 테두리 */
+  border-radius: 4px; /* 테두리 둥글기 */
+  box-sizing: border-box; /* 박스 모델 설정 */
+  cursor: pointer; /* 커서 모양 */
+}
+
+input[type="file"]::file-selector-button {
+  padding: 8px 10px; /* 버튼 내 패딩 */
+  border-radius: 4px; /* 버튼 테두리 둥글기 */
+  border: none; /* 버튼 테두리 없애기 */
+  background-color: var(--main); /* 버튼 배경색 */
+  color: white; /* 버튼 내 텍스트 색상 */
+  cursor: pointer; /* 버튼에 마우스 오버시 커서 */
+  transition: background-color 0.3s; /* 배경색 변경 애니메이션 */
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: var(--grey4); /* 버튼 호버시 배경색 */
+}

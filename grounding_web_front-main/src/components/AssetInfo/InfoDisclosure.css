@@ -1,0 +1,19 @@
+.info-banner {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info-banner a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-banner a.active {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

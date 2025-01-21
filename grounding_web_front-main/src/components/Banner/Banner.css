@@ -1,0 +1,82 @@
+/* Banner.css */
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.banner-left,
+.banner-center,
+.banner-right {
+  display: flex;
+  align-items: center;
+}
+
+.banner-left a,
+.banner-center a,
+.banner-right a,
+.banner-right button {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.banner-center {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.banner-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.banner-right span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.banner-left a:hover,
+.banner-center a:hover,
+.banner-right a:hover,
+.banner-right button:hover {
+  color: var(--main);
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #000;
+  font: inherit;
+  padding: 0;
+  margin-right: 10px;
+}
+
+button:hover {
+  color: #bec6ce;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: var(--main);
+  color: white;
+  border-radius: 8px;
+}

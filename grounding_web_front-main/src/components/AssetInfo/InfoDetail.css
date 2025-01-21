@@ -1,0 +1,55 @@
+/* Container styles */
+.asset-details {
+  width: 75%;
+  margin-top: 20px;
+  border: 1px solid var(--grey3);
+  padding: 20px;
+  background-color: var(--grey1);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Detail item styles */
+.detail-item {
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail-value {
+  color: #333;
+}
+
+/* Active link style in info banner */
+.info-banner {
+  display: flex;
+  margin-top: 20px;
+}
+
+.info-banner a {
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.info-banner a.active {
+  font-weight: bold;
+}
+
+.info-banner a:hover {
+  text-decoration: underline;
+}
+
+.navigation-links {
+  margin-bottom: 10px;
+}
+.navigation-links .active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--main);
+
+  padding: 10px 15px;
+}
